@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Feedback Form</title>
+
+</head>
+<body>
+    <h1>Task Assignment Form</h1>
+
+    <form id="taskForm">
+        <div class="employee">        
+        <label><b>Employee Name</b></label>
+        <br> 
+        <input type="text" id="employeeFirstName" placeholder="First Name" style="height:30px;">
+        <input type="text" id="employeeLastName" placeholder="Last Name" style="height:30px;"> 
+        </div>
+        <br>
+        <br>
+        <div class="manager">
+            <label><b>Manager Name</b></label>
+            <br>
+            <input type="text" id="managerFirstName" placeholder="First Name" style="height:30px;">
+            <input type="text" id="managerLastName" placeholder="Last Name" style="height:30px;">
+        </div>    
+        <br>
+        <br>
+        <div class="task">
+            <div>
+                <label><b>Task</b></label>
+                <br>
+               <input type="text" id="task" style="height:30px;">
+           </div>
+            <br>
+            <div class="taskid">
+                <label><b>Task ID</b></label>
+                <br>
+                <input type="text" id="taskId" placeholder="ex:3" style="height:30px;">
+            </div>
+        </div>    
+        <br><br>
+        <div class="status">
+            <label><b>Status</b></label>
+            <br>
+            <input type="radio" id="notstarted" name="status" value="NotStarted">
+            <label for="notstarted">NotStarted</label><br>
+            <input type="radio" id="inprogress" name="status" value="In Progress">
+            <label for="inprogress">In Progress</label><br>
+            <input type="radio" id="done" name="status" value="Done">
+            <label for="done">Done</label><br>
+            <input type="radio" id="awaitingfeedback" name="status" value="Awaiting Feedback">
+            <label for="awaitingfeedback">Awaiting Feedback</label><br>
+        </div>
+        <br>
+        <br>
+        <div class="notes">
+            <label><b>Additional Notes</b></label>
+            <br>
+            <textarea name="" id="" cols="73" rows="14" placeholder="Type here..."></textarea>
+        </div>    
+        <br>
+        <br>
+        <div class="Instructions">
+            <label><b>Instructions</b></label>
+            <br>
+            <input type="text" id="instructions" style="width:600px; height:100px;">
+        </div>
+        <br>
+        <br>
+        <div class="submit">
+            <input class="btn" type="submit">
+        </div>
+    </form>
+
+    <div id="formDataDisplay"></div>
+
+
+    <SCript src="./script.js"></SCript>
+
+</body>
+</html>

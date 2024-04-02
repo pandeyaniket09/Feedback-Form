@@ -1,0 +1,50 @@
+body{
+    background-image: url(./images.jpeg);
+    background-size: cover;
+    color: beige;
+}
+h1{
+    text-align: center;
+}
+.employee{
+    margin-left: 34.5%;
+}
+
+.manager{ 
+   margin-left: 34.5%;
+}
+.task{
+    display:flex;
+    justify-content: center;
+}
+.taskid{
+    margin-left: 20px;
+}
+.status{
+    margin-left: 34.5%;
+}
+.notes{
+    margin-left: 26.5%
+}
+.Instructions{
+    margin-left: 26.5%;
+}
+.submit{
+    text-align: center;
+}
+
+.btn{
+    font-size: x-large;
+    border-radius: 26px;
+    color: black;
+    height: 8vh;
+    width: 15vw;
+    background-color: springgreen;
+}
+
+#additionalNotes{
+    width:600px;
+    height:200px;
+    text-align: start;
+    vertical-align: top;
+}
